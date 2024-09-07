@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Zap-Sendify",
+  title: "Zap-Sendify: Email Sending Made Simple",
   description: "Seamless Email Sending Made Simple",
   icons: {
     icon: [

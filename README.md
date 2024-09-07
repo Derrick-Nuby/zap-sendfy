@@ -1,5 +1,9 @@
 # Zap-Sendify: Seamless Email Sending Made Simple
 
+<p align="center">
+  <img src="./public/zap-sendify.svg" alt="Zap-Sendify Logo" width="200"/>
+</p>
+
 ## Description
 
 Zap-Sendify is your go-to email solution for fast, secure, and efficient email delivery. Whether you need to reach hundreds or thousands of recipients, Zap-Sendify streamlines the process with ease, ensuring your emails are sent quickly and reliably. Manage your email campaigns, automate updates, and receive detailed reports—all in one intuitive platform.
