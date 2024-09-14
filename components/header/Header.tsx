@@ -27,21 +27,19 @@ export default function Header() {
                     <Image src={sendifyLogo} alt={'Sendify Logo'} className='size-[2.5rem]' />
                     <p className={`${rowdies.className} text-[1.5rem]`}>ZAP SENDIFY</p>
                 </Link>
-                <div className='hidden md:flex items-center space-x-4'>
-                    <nav className='flex gap-5 font-bold'>
-                        {menuLinks.map((item, index) => (
-                            <Link href={item.href} key={index} className='cursor-pointer hover:text-primary'>{item.label}</Link>
-                        ))}
-                    </nav>
-                    <div className='flex gap-4 font-semibold items-center justify-center'>
-                        <Button asChild className='font-semibold rounded-full p-5' size={'lg'}>
-                            <Link href={'/pricing'}>Get started</Link>
-                        </Button>
-                        <Button asChild className='font-semibold rounded-full p-5' variant={'outline'} size={'lg'}>
-                            <Link href={'/sendify-demo'}>View demo</Link>
-                        </Button>
-                        <ModeToggle />
-                    </div>
+                <nav className='hidden md:flex gap-5 font-bold'>
+                    {menuLinks.map((item, index) => (
+                        <Link href={item.href} key={index} className='cursor-pointer hover:text-primary'>{item.label}</Link>
+                    ))}
+                </nav>
+                <div className='hidden md:flex gap-4 font-semibold items-center justify-center'>
+                    <Button asChild className='font-semibold rounded-full p-5' size={'lg'}>
+                        <Link href={'/pricing'}>Get started</Link>
+                    </Button>
+                    <Button asChild className='font-semibold rounded-full p-5' variant={'outline'} size={'lg'}>
+                        <Link href={'/sendify-demo'}>View demo</Link>
+                    </Button>
+                    <ModeToggle />
                 </div>
                 <Button
                     variant="ghost"
