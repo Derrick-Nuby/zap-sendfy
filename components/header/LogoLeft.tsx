@@ -11,7 +11,7 @@ const rowdies = Rowdies({
 
 export default function LogoLeft() {
     return (
-        <Link href={'/'} className='flex items-center gap-2 text-[#081D34]' >
+        <Link href={'/'} className='flex items-center gap-2 text-primary' >
             <Image src={sendifyLogo} alt={'Sendify Logo'} className='size-[2.5rem]' />
             <p className={`${rowdies.className} text-[1.5rem]`}>ZAP SENDIFY</p>
         </Link>
