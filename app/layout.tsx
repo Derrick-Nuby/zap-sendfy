@@ -2,6 +2,12 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/header/Header";
 import Providers from "./providers";
+import { Poppins } from "next/font/google";
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: "400"
+});
 
 export const metadata: Metadata = {
   title: "Zap-Sendify: Email Sending Made Simple",
@@ -25,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body>
+      <body className={poppins.className}>
         <Providers>
           <Header />
           {children}
