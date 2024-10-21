@@ -1,41 +1,81 @@
-# Zap-Sendify: Seamless Email Sending Made Simple
+<img src="https://github.com/user-attachments/assets/e1e0fe16-21f4-44c8-a22d-39b4494433a1" alt="Link Management Logo" width="50" height="50">
 
-<p align="center">
-  <img src="./public/zap-sendify.svg" alt="Zap-Sendify Logo" width="200"/>
-</p>
+# 🔗 Linkify - The Link Management Platform for Businesses(Landing Page)
 
-## Description
+<!-- <img src="https://github.com/user-attachments/assets/deab03fd-4234-44c3-a6ad-484c4a1a02a1" alt="Linkify Thubmnail"> -->
+<img src="https://github.com/user-attachments/assets/ee867e8e-7871-4289-bd56-3eef40adb9b2" alt="Linkify Thumbnail" style="border-radius: 50px;" width="1280">
 
-Zap-Sendify is your go-to email solution for fast, secure, and efficient email delivery. Whether you need to reach hundreds or thousands of recipients, Zap-Sendify streamlines the process with ease, ensuring your emails are sent quickly and reliably. Manage your email campaigns, automate updates, and receive detailed reports—all in one intuitive platform.
 
-## Features
+## 🌟 Introduction
+Linkify is an innovative link management software designed to help you shorten, track, and optimize your links effortlessly. Built with React, Node.js, and MongoDB, Linkify provides powerful analytics and user-friendly features to enhance your link-sharing experience.
 
-1. **"Effortless Emailing with Zap-Sendify"**  
-   Forget the hassle of waiting for emails to send. With Zap-Sendify, just hit send and relax. We'll handle the rest while you focus on what matters most.
+## 🚀 Features
 
-2. **"Bulk Emails, Zero Stress"**  
-   Sending to hundreds? Thousands? No problem! Zap-Sendify optimizes email delivery to get your messages to inboxes fast, without interruptions.
+- **Link Shortening:** Easily create short links for better sharing.
+- **Analytics Dashboard:** Track clicks, user engagement, and performance metrics.
+- **Customizable Links:** Create branded links that reflect your identity.
+- **AI-Powered Suggestions:** Get smart recommendations for link optimization.
 
-3. **"Reliable, Fast, and Secure"**  
-   Trust Zap-Sendify to keep your email campaigns running smoothly. With top-notch security and real-time reports, your data and communication are always in safe hands.
+## 🔗 Live Preview
 
-4. **"Email Marketing Made Simple"**  
-   Customize and automate your email campaigns effortlessly. Zap-Sendify is built to make bulk emailing and transactional messages faster and simpler.
+Check out the live demo of Linkify here: [Live Preview](http://Linkify-demo.vercel.app)
 
-5. **"Zap Through Your Emails"**  
-   Zap-Sendify allows you to send emails with lightning speed and precision. Perfect for businesses that need to communicate with their clients quickly.
+## 🎥 Watch Demo on YouTube
 
-6. **"Stay Informed, Stay Connected"**  
-   Receive real-time progress updates and detailed reports straight to your inbox. With Zap-Sendify, transparency and reliability are built in.
+Check out the tutorial to see how this link management system was built: [Watch the Tutorial](https://youtu.be/3_sZPAfVR_U) 💻 
 
-7. **"Built for Scale"**  
-   No matter how big your email list grows, Zap-Sendify is designed to scale with your needs, providing unmatched performance for every email sent.
+## 💻 Tech Stack
 
-8. **"Supercharge Your Email Delivery"**  
-   With Zap-Sendify, sending emails is faster than ever. Turbocharge your communication with a tool built for efficiency and speed.
+* Next.js
+* Tailwind CSS
+* Shadcn UI
+* Magic UI
+* Aceternity UI
+* Prisma
+* MongoDB
+* Clerk
+* React Hook Form
 
-9. **"Streamline Your Email Workflow"**  
-   Simplify your email process and take control of bulk and individual messaging with Zap-Sendify’s user-friendly interface and robust features.
+## 🛠️ Installation
+To run Linkify locally, follow these steps:
 
-10. **"Never Miss a Beat with Zap-Sendify"**  
-    Stay ahead with detailed email reports and insights delivered to your inbox. Know what’s working and make data-driven decisions to optimize your communication.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Shreyas-29/linkify.git
+    ```
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+3. Set up environment variables in a `.env` file:
+    ```
+   # app
+    NEXT_PUBLIC_APP_DOMAIN=
+    NEXT_PUBLIC_APP_NAME=
+
+    # clerk
+    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+    CLERK_SECRET_KEY=
+
+    # database
+    DATABASE_URL=
+    ```
+
+4. Run the development server:
+    ```bash
+    npm run dev
+    ```
+
+## ☕ Buy Me a Coffee
+If you enjoy using Linkify, consider supporting my work!  
+[Buy Me a Coffee ☕](https://buymeacoffee.com/shreyas29)
+
+## 📜 License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## 💬 Contact
+If you have any questions or feedback, feel free to reach out via [GitHub Issues](https://github.com/Shreyas-29/linkify/issues).
+
+---
+
+Built with ❤️ by [Shreyas](https://shreyas-sihasane.vercel.app/)
