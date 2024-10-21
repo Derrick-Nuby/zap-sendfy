@@ -7,7 +7,7 @@ export default function Footer() {
     return (
         <footer className="bg-background py-12 px-4 md:px-8">
             <div className="container mx-auto">
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 xl:grid-cols-7">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 xl:grid-cols-7 gap-4">
                     {Object.entries(footerLinks).map(([title, links]) => (
                         <div key={title} className="flex flex-col space-y-4">
                             <h3 className="font-bold text-base">{title}</h3>

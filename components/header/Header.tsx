@@ -29,7 +29,7 @@ export default function Header() {
                 </Link>
                 <nav className='hidden md:flex gap-5 font-bold'>
                     {menuLinks.map((item, index) => (
-                        <Link href={item.href} key={index} className='cursor-pointer hover:text-primary'>{item.label}</Link>
+                        <Link href={item.href} key={index} className='cursor-pointer hover:text-primary text-sm'>{item.label}</Link>
                     ))}
                 </nav>
                 <div className='hidden md:flex gap-4 font-semibold items-center justify-center'>
